@@ -4,11 +4,15 @@
 
 void version() {
     std::cout << "rvz-convert " << VERSION << std::endl;
+    std::cout << "Copyright © 2025 <github/shrapnelnet>" << std::endl;
+    std::cout << "License GPLv3+: GNU GPL version 3 or later <https://gnu.org/licenses/gpl.html>" << std::endl;
+    std::cout << "This is free software: you are free to change and redistribute it." << std::endl;
+    std::cout << "There is NO WARRANTY, to the extent permitted by law." << std::endl;
 }
 
 void help() {
-    std::cout << "Usage: rvz-convert [options] file" << std::endl;
-    std::cout << "Options:\n\t-h --help\t\tDisplay this message" << std::endl;
+    std::cout << "Usage: rvz-convert [options] file.iso" << std::endl;
+    std::cout << "Options:\n\t-h --help\tDisplay this message" << std::endl;
     std::cout << "\t-v --version\tDisplay version information" << std::endl;
 }
 
