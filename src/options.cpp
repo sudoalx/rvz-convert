@@ -1,6 +1,6 @@
 #include <getopt.h>
 #include <iostream>
-#define VERSION "v1.0.0-rc1"
+#define VERSION "v1.0.0-rc2"
 
 void version() {
     std::cout << "rvz-convert " << VERSION << std::endl;
