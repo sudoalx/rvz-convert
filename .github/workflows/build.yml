@@ -9,5 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: deps
+        run: sudo apt install qt6-base-dev qt6-base-private-dev qt6-svg-dev build-essential cmake
       - name: make
         run: make -j$(nproc)
