@@ -26,3 +26,4 @@ Please use after installing to PATH (`sudo make install`)
 - Working compiler toolchain (build-essential)
 - GNU Make
 - CMake
+- Xi
