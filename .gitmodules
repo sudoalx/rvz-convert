@@ -1,0 +1,6 @@
+[submodule "lib/dolphin"]
+	path = lib/dolphin
+	url = https://github.com/dolphin-emu/dolphin.git
+[submodule "lib/wiimms-iso-tools"]
+	path = lib/wiimms-iso-tools
+	url = https://github.com/Wiimm/wiimms-iso-tools.git
