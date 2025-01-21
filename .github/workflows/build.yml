@@ -10,6 +10,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: deps
-        run: sudo apt install qt6-base-dev qt6-base-private-dev qt6-svg-dev build-essential cmake
+        run: sudo apt install qt6-base-dev qt6-base-private-dev qt6-svg-dev build-essential cmake libxi-dev
       - name: make
         run: make -j$(nproc)
