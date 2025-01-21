@@ -12,8 +12,6 @@ make -j$(nproc)
 sudo make install
 ```
 
-
-
 ### Dependencies:
 
 - Qt6 Base
@@ -22,11 +20,3 @@ sudo make install
 - Working compiler toolchain (build-essential)
 - GNU Make
 - CMake
-
-### Building for Windows
-
-#### Dependencies:
-
-- WSL
-- mingw64 Qt components (above)
-- 
