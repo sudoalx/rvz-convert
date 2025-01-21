@@ -12,6 +12,12 @@ make -j$(nproc)
 sudo make install
 ```
 
+## Usage
+
+Please use after installing to PATH (`sudo make install`)
+
+`rvz-convert path/to/Game.rvz`
+
 ### Dependencies:
 
 - Qt6 Base
