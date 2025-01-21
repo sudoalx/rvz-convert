@@ -1,5 +1,6 @@
 all: src/main.cpp src/options.cpp submodules preinstall
-	cc -Wall -O src/main.cpp src/options.cpp -o bin/rvz-convert -lstdc++
+	cc -Wall -O -std=c++20 src/main.cpp src/options.cpp -o bin/rvz-convert -lstdc++
+
 
 submodules:
 	git submodule update --init --recursive --depth=1
@@ -15,3 +16,9 @@ clean:
 	rm -rf lib/dolphin/cmake-build/*
 	rm -rf lib/dolphin/cmake-build-windows/*
 	rm bin/*
+
+install:
+	cp bin/* /usr/local/bin
+
+uninstall:
+	rm -i /usr/local/bin/wit /usr/local/bin/rvz-convert /usr/local/bin/dolphin-tool
