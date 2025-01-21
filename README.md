@@ -27,3 +27,4 @@ Please use after installing to PATH (`sudo make install`)
 - GNU Make
 - CMake
 - Xi
+- LibXRandr
