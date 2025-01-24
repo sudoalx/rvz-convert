@@ -11,7 +11,7 @@ void version() {
 }
 
 void help() {
-    std::cout << "Usage: rvz-convert [options] file.iso" << std::endl;
+    std::cout << "Usage: rvz-convert [options] file.rvz" << std::endl;
     std::cout << "Options:\n\t-h --help\tDisplay this message" << std::endl;
     std::cout << "\t-v --version\tDisplay version information" << std::endl;
 }
