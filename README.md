@@ -20,6 +20,8 @@ Please use after installing to PATH (`sudo make install`)
 
 ### Dependencies:
 
+Note: Most of these are dolphin dependencies. Still working on cutting out the Qt6 dependencies as it's a total PITA to compile the entirety of dolphin.
+
 - Qt6 Base
 - Qt6 SVG
 - Qt6 qtbase private libraries
