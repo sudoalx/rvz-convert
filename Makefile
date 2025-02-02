@@ -17,6 +17,7 @@ clean:
 	rm bin/*
 
 install:
+	mkdir -p bin
 	cp bin/* /usr/local/bin
 
 uninstall:
